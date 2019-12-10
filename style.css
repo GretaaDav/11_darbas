@@ -1,0 +1,54 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 16px;
+}
+section{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text {
+    background: hsl(204, 43%, 93%);
+    width: 100%;
+
+}
+.background-green {
+    background: hsl(179, 62%, 43%);
+    width: 50%;
+    color: hsl(204, 43%, 93%);
+    text-align:left;
+    padding-left: 10px
+
+}
+.background-grey {
+    background:hsl(218, 22%, 67%);
+    width: 50%;
+    text-align:center;
+    color: hsl(204, 43%, 93%);
+
+}
+.button {
+  background: hsl(71, 73%, 54%);
+  width: 40%;
+  text-align: center;
+  color: white;
+}
+
+<!--
+
+- Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%)
+- Light Gray: hsl(204, 43%, 93%)
+-  Cyan: hsl(179, 62%, 43%)
+
+--!>
